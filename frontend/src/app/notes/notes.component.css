@@ -1,0 +1,113 @@
+/* Header styling */
+.header {
+  background: linear-gradient(135deg, #7e2a81, #1e1bad);
+  color: #fff;
+  height: 9vh;
+  margin: 30px auto;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 0 0 20px #1c87eb;
+  width: 98%;
+  text-align: center;
+}
+
+/* Body styling */
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1b0b4a;
+  padding: 20px;
+  margin: 50px auto;
+  width: 70%;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #17cdea;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 400px;
+  background-color: #1b0b4a;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #444;
+  background-color: #345a94;
+  color: #fff;
+  resize: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #fff;
+}
+
+form button {
+  border-radius: 20px;
+  background-color: #17cdea;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+form button:hover {
+  background-color: #13aac0;
+}
+
+/* Notes list */
+.note {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+  background-color: #2a1d6a;
+  color: #fff;
+  padding: 15px;
+  border-radius: 12px;
+
+  box-shadow: 0 0 10px #17cdea;
+  text-align: center;
+}
+
+.note h3 {
+  /* margin: 0 0 10px; */
+  color: #17cdea;
+  border-radius: 12px;
+  font-size: 25px;
+}
+.note p {
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.note button {
+  border-radius: 20px;
+  background-color: #f20051;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 20px;
+}
+.note button:hover {
+  background-color: #940f0f;
+}

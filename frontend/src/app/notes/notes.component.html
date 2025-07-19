@@ -1,0 +1,29 @@
+<!-- <p>notes works!</p> -->
+<div class="header">Note Mate</div>
+<div class="body">
+  <!-- <h2>My Notes</h2> -->
+
+  <form (ngSubmit)="addNote()">
+    <input
+      type="text"
+      [(ngModel)]="newNote.title"
+      name="title"
+      placeholder="Title"
+      required
+    />
+    <textarea
+      [(ngModel)]="newNote.content"
+      name="content"
+      placeholder="Content"
+      required
+    ></textarea>
+    <!-- <button type="submit">Add Note</button> -->
+    <button type="submit">Add Note</button>
+  </form>
+
+  <div *ngFor="let note of notes" class="note">
+    <h3>{{ note.title }}</h3>
+    <p>{{ note.content }}</p>
+    <button (click)="deleteNote(note._id!)">Delete</button>
+  </div>
+</div>
