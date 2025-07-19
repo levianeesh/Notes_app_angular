@@ -57,6 +57,10 @@ textarea::placeholder {
   color: #fff;
 }
 
+input:hover,textarea:hover{
+  background-color: #4f5ee8;
+}
+
 form button {
   border-radius: 20px;
   background-color: #17cdea;

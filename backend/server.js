@@ -41,5 +41,5 @@ app.delete("/notes/:id", async (req, res) => {
 });
 
 // Start server
-const PORT = 3000;
+const PORT = process.env.port || 3000; // process.env.port is for deployment
 app.listen(PORT, () => console.log(`Backend running on : ${PORT}`));
