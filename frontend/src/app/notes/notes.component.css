@@ -57,14 +57,15 @@ textarea::placeholder {
   color: #fff;
 }
 
-input:hover,textarea:hover{
+input:hover,
+textarea:hover {
   background-color: #4f5ee8;
 }
 
 form button {
   border-radius: 20px;
   background-color: #17cdea;
-  color: #000;
+  color: #111;
   font-weight: bold;
   padding: 10px 20px;
   border: none;
@@ -73,7 +74,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #13aac0;
+  background-color: #125f6b;
 }
 
 /* Notes list */
@@ -85,7 +86,6 @@ form button:hover {
   color: #fff;
   padding: 15px;
   border-radius: 12px;
-
   box-shadow: 0 0 10px #17cdea;
   text-align: center;
 }
