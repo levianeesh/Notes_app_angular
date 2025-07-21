@@ -2,7 +2,6 @@
 <div class="header">Note Mate</div>
 
 <div class="body">
-
   <form (ngSubmit)="addNote()">
     <input
       type="text"
@@ -11,13 +10,14 @@
       placeholder="Title"
       required
     />
+
     <textarea
       [(ngModel)]="newNote.content"
       name="content"
       placeholder="Content"
       required
     ></textarea>
-    
+
     <button type="submit">Add Note</button>
   </form>
 

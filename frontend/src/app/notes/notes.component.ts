@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { NotesService } from '../services/notes.service';
 import { Note } from '../note.model';
 
@@ -7,7 +7,7 @@ import { Note } from '../note.model';
   templateUrl: './notes.component.html',
   styleUrl: './notes.component.css',
 })
-export class NotesComponent {
+export class NotesComponent implements OnInit {
   notes: Note[] = [];
   newNote: Note = { title: '', content: '' };
 
